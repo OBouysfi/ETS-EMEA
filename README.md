@@ -79,3 +79,14 @@ docker-compose up --build
 # Logs
 docker-compose logs -f
 ```
+<img width="1920" height="869" alt="image" src="https://github.com/user-attachments/assets/3f486290-4bc4-4b2d-bec4-22f038eaffb9" />
+<img width="1920" height="869" alt="image" src="https://github.com/user-attachments/assets/4b592975-7bf1-47c1-a771-3d3aec4c1c40" />
+<img width="1920" height="869" alt="image" src="https://github.com/user-attachments/assets/c191dd59-b8a3-47c2-89d3-298a7aa04248" />
+<img width="1920" height="869" alt="image" src="https://github.com/user-attachments/assets/cf82a02d-6989-4112-a364-3638469499f6" />
+<img width="1920" height="869" alt="image" src="https://github.com/user-attachments/assets/8c923395-4aaf-40a4-85e4-d14fadac2f28" />
+
+
+
+
+
+
