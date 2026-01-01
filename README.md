@@ -70,6 +70,29 @@ docker-compose exec backend vendor/bin/phpunit
 docker-compose exec frontend npm test
 ```
 
+## Importer les données de démonstration
+
+Le projet inclut un dump MongoDB avec des données de test (utilisateurs, sessions, réservations).
+
+**Pour importer:**
+```bash
+# Décompresser le fichier
+unzip mongodb_dump.zip
+
+# Copier dans le container MongoDB
+docker cp mongodb_dump ets_mongodb:/dump
+
+# Importer les données
+docker-compose exec mongodb mongorestore --username=root --password=root123 --authenticationDatabase=admin /dump
+```
+
+**Données incluses:**
+- 1 utilisateur de test
+- 3 sessions de test (English, Arabe, Français)
+- 1 réservation exemple
+
+Vous pouvez aussi créer vos propres données via Postman (voir section Utilisation).
+
 ## Dépannage
 ```bash
 # Reset complet
