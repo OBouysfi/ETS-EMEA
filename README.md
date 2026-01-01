@@ -35,7 +35,7 @@ Authorization: Bearer {votre_token}
   "langue": "English",
   "date": "2026-03-15",
   "heure": "10:00",
-  "lieu": "Paris",
+  "lieu": "Casablanca",
   "places": 20
 }
 ```
